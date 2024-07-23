@@ -32,7 +32,7 @@ public  class ControllerManager {
     public boolean resetCursor = false;
     public boolean canChangeSlidersValue = true;
     final Minecraft minecraft;
-    public static final List<Controller.Handler> handlers = List.of(GLFWControllerHandler.getInstance(), SDLControllerHandler.getInstance(), Controller.Handler.EMPTY);
+    public static final List<Controller.Handler> handlers = List.of(GLFWControllerHandler.getInstance(), Controller.Handler.EMPTY);
 
     public static final Component CONTROLLER_DETECTED = Component.translatable("legacy.controller.detected");
     public static final Component CONTROLLER_DISCONNECTED = Component.translatable("legacy.controller.disconnected");
